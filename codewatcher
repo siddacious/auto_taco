@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fswatch -o $1| while read num; do cp $1 /Volumes/CIRCUITPY/code.py;echo "sync";done

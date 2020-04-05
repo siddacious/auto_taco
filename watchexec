@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fswatch -o $1| while read num; do eval $2;echo "synched: $2" ;done
