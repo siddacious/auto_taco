@@ -1,4 +1,4 @@
-## Kneuger Value: When half-assed is good enough
+## Auto 🌮: When half-assed is good enough
 
 This is a stupid set of scripts that do things when files change, written to prevent me from working with files on the CircuitPython device.
 
