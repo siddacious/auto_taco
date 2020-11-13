@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fswatch -o $1| while read num; do doxygen ~/weeno/Doxyfile;echo "doxy'd";done
